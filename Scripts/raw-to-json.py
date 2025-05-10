@@ -4,7 +4,7 @@ import json
 # This script converts the raw WordNet 3.1 noun data into a JSON format.
 synsets = {}
 
-with open("data/wn-3.1-raw/data.noun", "r") as file:
+with open("../Data/wn-3.1-raw/data.noun", "r") as file:
     lines = [line for line in file.readlines() if not line.startswith("  ")]
     for line_id, line in enumerate(lines):
         print(f"\rProcessing line {line_id + 1}/{len(lines)}", end="")
@@ -75,5 +75,5 @@ with open("data/wn-3.1-raw/data.noun", "r") as file:
 
 # Save the synsets to a JSON file
 print("Saving synsets to JSON file...")
-with open("data/wn-3.1-json/noun.json", "w") as json_file:
+with open("../Data/wn-3.1-json/noun.json", "w") as json_file:
     json.dump(synsets, json_file, indent=4)
