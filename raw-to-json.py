@@ -6,7 +6,9 @@ synsets = {}
 
 with open("data/wn-3.1-raw/data.noun", "r") as file:
     lines = [line for line in file.readlines() if not line.startswith("  ")]
-    for line in random.sample(lines, 5):
+    for line_id, line in enumerate(lines):
+        print(f"\rProcessing line {line_id + 1}/{len(lines)}", end="")
+
         line_it = iter(line.split(" "))
 
         synset_id = next(line_it)
@@ -68,6 +70,10 @@ with open("data/wn-3.1-raw/data.noun", "r") as file:
                 case "=": synset["other_relations"].append({"id": rel_target, "type": "attribute"})
                 case "+": synset["other_relations"].append({"id": rel_target, "type": "derivationally_related_form"})
 
+    print()  # Print a newline after processing all lines
+
+
 # Save the synsets to a JSON file
+print("Saving synsets to JSON file...")
 with open("data/wn-3.1-json/noun.json", "w") as json_file:
     json.dump(synsets, json_file, indent=4)
