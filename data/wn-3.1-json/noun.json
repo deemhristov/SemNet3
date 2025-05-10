@@ -1,0 +1,222 @@
+{
+    "01422381": {
+        "id": "01422381",
+        "pos": "n",
+        "words": [
+            {
+                "word": "genus Giardia",
+                "lex_id": 0
+            }
+        ],
+        "hypernyms": [
+            {
+                "id": "01390771",
+                "type": "regular"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [
+            {
+                "id": "01421723",
+                "type": "member"
+            }
+        ],
+        "meronyms": [
+            {
+                "id": "01422529",
+                "type": "member"
+            }
+        ],
+        "domains": [],
+        "domain_members": [],
+        "other_relations": [],
+        "gloss": "flagellates parasitic in intestines of vertebrates"
+    },
+    "03049322": {
+        "id": "03049322",
+        "pos": "n",
+        "words": [
+            {
+                "word": "cloak",
+                "lex_id": 0
+            }
+        ],
+        "hypernyms": [
+            {
+                "id": "03869443",
+                "type": "regular"
+            }
+        ],
+        "hyponyms": [
+            {
+                "id": "02926919",
+                "type": "regular"
+            },
+            {
+                "id": "02939786",
+                "type": "regular"
+            },
+            {
+                "id": "02959203",
+                "type": "regular"
+            },
+            {
+                "id": "02960319",
+                "type": "regular"
+            },
+            {
+                "id": "02961700",
+                "type": "regular"
+            },
+            {
+                "id": "03108555",
+                "type": "regular"
+            },
+            {
+                "id": "03224562",
+                "type": "regular"
+            },
+            {
+                "id": "03225908",
+                "type": "regular"
+            },
+            {
+                "id": "03600248",
+                "type": "regular"
+            },
+            {
+                "id": "03855463",
+                "type": "regular"
+            },
+            {
+                "id": "03885729",
+                "type": "regular"
+            },
+            {
+                "id": "03987232",
+                "type": "regular"
+            },
+            {
+                "id": "04193498",
+                "type": "regular"
+            },
+            {
+                "id": "04452174",
+                "type": "regular"
+            },
+            {
+                "id": "04504865",
+                "type": "regular"
+            },
+            {
+                "id": "04612804",
+                "type": "regular"
+            }
+        ],
+        "holonyms": [],
+        "meronyms": [],
+        "domains": [],
+        "domain_members": [],
+        "other_relations": [],
+        "gloss": "a loose outer garment"
+    },
+    "06558922": {
+        "id": "06558922",
+        "pos": "n",
+        "words": [
+            {
+                "word": "muniments",
+                "lex_id": 0
+            }
+        ],
+        "hypernyms": [
+            {
+                "id": "06558252",
+                "type": "regular"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "domains": [
+            {
+                "id": "08458195",
+                "type": "topic"
+            }
+        ],
+        "domain_members": [],
+        "other_relations": [],
+        "gloss": "deeds and other documentary evidence of title to land"
+    },
+    "12908473": {
+        "id": "12908473",
+        "pos": "n",
+        "words": [
+            {
+                "word": "rock penstemon",
+                "lex_id": 0
+            },
+            {
+                "word": "cliff penstemon",
+                "lex_id": 0
+            },
+            {
+                "word": "Penstemon rupicola",
+                "lex_id": 0
+            }
+        ],
+        "hypernyms": [
+            {
+                "id": "11692851",
+                "type": "regular"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [
+            {
+                "id": "12905283",
+                "type": "member"
+            }
+        ],
+        "meronyms": [],
+        "domains": [],
+        "domain_members": [],
+        "other_relations": [],
+        "gloss": "one of the West's most beautiful wildflowers; large brilliant pink or rose flowers in many racemes above thick mats of stems and leaves; ledges and cliffs from Washington to California"
+    },
+    "14153266": {
+        "id": "14153266",
+        "pos": "n",
+        "words": [
+            {
+                "word": "dengue",
+                "lex_id": 0
+            },
+            {
+                "word": "dengue fever",
+                "lex_id": 0
+            },
+            {
+                "word": "dandy fever",
+                "lex_id": 0
+            },
+            {
+                "word": "breakbone fever",
+                "lex_id": 0
+            }
+        ],
+        "hypernyms": [
+            {
+                "id": "14150693",
+                "type": "regular"
+            }
+        ],
+        "hyponyms": [],
+        "holonyms": [],
+        "meronyms": [],
+        "domains": [],
+        "domain_members": [],
+        "other_relations": [],
+        "gloss": "an infectious disease of the tropics transmitted by mosquitoes and characterized by rash and aching head and joints"
+    }
+}
