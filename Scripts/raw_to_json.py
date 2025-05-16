@@ -42,7 +42,7 @@ with (open(sys.argv[1], "r") if len(sys.argv) > 1 else sys.stdin) as file:
         num_relations = int(next(line_it))
         for _ in range(num_relations):
             rel_type = next(line_it)
-            rel_target = next(line_it)
+            rel_target = next(line_it) + "-n"  # Append "-n" to the target ID
             rel_pos = next(line_it)
             rel_src_trg = next(line_it)
 
@@ -69,7 +69,6 @@ with (open(sys.argv[1], "r") if len(sys.argv) > 1 else sys.stdin) as file:
                 case "-u": synset["domain_members"].append({"id": rel_target, "type": "usage"})
                 case "!": synset["other_relations"].append({"id": rel_target, "type": "antonym"})
                 case "=": synset["other_relations"].append({"id": rel_target, "type": "attribute"})
-                case "+": synset["other_relations"].append({"id": rel_target, "type": "derivationally_related_form"})
 
     print(file=sys.stderr)  # Print a newline after processing all lines
 
