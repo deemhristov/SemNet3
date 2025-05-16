@@ -83,7 +83,7 @@ def get_hypernym_data(synset_id):
     return stripped_data
 
 # Create a new instance of the WordNetHypernymResolver class
-resolver = WordNetHypernymResolver(model="llama3.2")
+resolver = WordNetHypernymResolver(model="llama3.1")
 
 # Run the resolver on the first selected synset
 synset_id = selected_synsets[0]

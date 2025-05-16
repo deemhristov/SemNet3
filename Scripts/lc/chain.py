@@ -4,6 +4,7 @@ import time
 from langchain.prompts import PromptTemplate
 from langchain_ollama import OllamaLLM
 from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
 
 
 class WordNetHypernymResolver:
@@ -54,15 +55,19 @@ Instructions:
 You are given a list of synsets with their full or partial data,
 and a synset ID for which to perform the task.
 Your job is to analyze the words, glosses and relations of the
-given synsets under "WordNet data" and to execute the task.
-Your task is to resolve the multiple hypernyms of the task synset ID.
-You can do this by adding, removing or changing the relations
-of the task synset as described under "Rules". The resulting set of
-relations must include exactly one hypernym relation for the task synset.
-All synsets are referenced by their synset ID. All synsets are nouns.
+given synsets under "WordNet data" and to answer the below question.
+----------------------------------------------------------------
+Question:
+What changes could be made to the relations of the task synset
+such that the task synset has only one hypernym relation, this hypernym
+relation's meaning is as concrete as possible, and all other
+relations are accurate?
+Possible changes are adding, removing or changing the relations
+of the task synset according to the rules below. Relations of the
+other synsets must not be changed.
 ----------------------------------------------------------------
 Rules:
-The given task synset will have a list of relations of the following types:
+The given task synset has a list of relations of the following types:
 - hypernym - regular or instance
 - hyponym - regular or instance
 - holonym - part, substance or member
@@ -71,29 +76,29 @@ The given task synset will have a list of relations of the following types:
 - domain member - topic, region or usage
 - attribute
 - antonym (only for reference)
-You can add, remove or change the relations of the task synset as follows:
+Relations of the task synset can be changed as follows:
 - Add a new hypernym relation
 - Remove an existing hypernym relation
 - Change an existing hypernym relation to any other relation, except for antonym
 - Change any other relation to a hypernym relation, except for antonym
-You cannot delete or make further changes to already changed relations.
-All relations must be between the task synset and other given synsets.
+No further changes can be made to already changed relations (including deletion).
+All changed relations must be between the task synset and other given synsets.
 ----------------------------------------------------------------
 Output format:
-Format the result in a table with the following columns:
-- Old relation type
-- New relation type
-- Synset ID
-- Synset words
-- Synset gloss
-First row of the table must be the task synset ID. Leave the relation
-type columns empty for the task synset ID.
-All other rows must list synsets to which the task synset's relation was:
+Format the result in a JSON list with the following properties for each object:
+- old_type - Old relation type
+- new_type - New relation type
+- id - Synset ID
+- words - Synset words
+- gloss - Synset gloss
+The first object in the list must be the task synset. Leave the old_type and
+new_type properties empty for the task synset.
+All following objects must list synsets to which the task synset's relation was:
 - Added
 - Removed
 - Changed
 - Kept
-After the table, provide a short reasoning for the changes.
+As a last item in the list, provide a string with a short reasoning for the changes.
 ----------------------------------------------------------------
 Task synset ID:
 {synset_id}
@@ -107,12 +112,25 @@ Response:
         )
         self.llm = OllamaLLM(
             model=model,
-            temperature=0,
+            temperature=0.5,
+            format="json",
         )
+
+        # self.llm = HuggingFacePipeline.from_model_id(
+        #     model_id="gpt2",
+        #     task="text-generation",
+        #     device=0,  # replace with device_map="auto" to use the accelerate library.
+        #     pipeline_kwargs={"max_new_tokens": 10},
+        # )
+
         self.chain = (
-            self.main_prompt |
-            self.llm |
-            StrOutputParser()
+            {
+                "synset_id": lambda x: x["synset_id"],
+                "wn_data": lambda x: self.wn_data_prompt.format(wn_data=x["wn_data"])
+            }
+            | self.main_prompt
+            | self.llm
+            | StrOutputParser()
         )
 
     def load_synsets(self):
@@ -120,19 +138,7 @@ Response:
             return json.load(json_file)
 
     def run(self, synset_id, wn_data):
-        wn_data_text = self.wn_data_prompt.format(
-            wn_data=wn_data
-        )
-        return self.main_prompt.format(
-            synset_id=synset_id,
-            wn_data=wn_data_text
-        )
-        # return self.chain.invoke({
-        #     "instructions": instructions,
-        #     "rules": rules,
-        #     "wn_data": wn_data,
-        #     "output_format": output_format,
-        # })
+        return self.chain.invoke({"synset_id": synset_id, "wn_data": wn_data})
 
 
 # Chain architecture

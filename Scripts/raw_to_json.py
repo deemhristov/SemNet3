@@ -46,8 +46,8 @@ with (open(sys.argv[1], "r") if len(sys.argv) > 1 else sys.stdin) as file:
             rel_pos = next(line_it)
             rel_src_trg = next(line_it)
 
-            if (rel_src_trg != '0000'):
-                # Skip word-to-word relations (non-zero source-target)
+            if (rel_pos != 'n' or rel_src_trg != '0000'):
+                # Skip relations that are not nouns or have a source target other than whole synset
                 continue
 
             match rel_type:
