@@ -18,7 +18,7 @@ if not synsets_with_multiple_hypernyms:
 print(f"Found {len(synsets_with_multiple_hypernyms)} synsets with 2 or more hypernyms.")
 
 # Randomly select 5 synsets
-selected_synsets = random.sample(synsets_with_multiple_hypernyms, 5)
+selected_synsets = random.sample(synsets_with_multiple_hypernyms, 1)
 print(f"Selected synsets: {selected_synsets}")
 
 def get_hypernym_data(synset_id):
@@ -89,8 +89,8 @@ resolver = WordNetHypernymResolver(model="llama3.1")
 synset_id = selected_synsets[0]
 stripped_data = get_hypernym_data(synset_id)
 
-print("Stripped data for synset ID:", synset_id)
-print(stripped_data)
+# print("Stripped data for synset ID:", synset_id)
+# print(stripped_data)
 
 result = resolver.run(
     synset_id=synset_id,

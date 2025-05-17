@@ -2,6 +2,7 @@ import json
 import time
 
 from langchain.prompts import PromptTemplate
+from langchain_huggingface import HuggingFacePipeline
 from langchain_ollama import OllamaLLM
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
@@ -110,18 +111,18 @@ Response:
 """,
             input_variables=["synset_id", "wn_data"],
         )
-        self.llm = OllamaLLM(
-            model=model,
-            temperature=0.5,
-            format="json",
-        )
-
-        # self.llm = HuggingFacePipeline.from_model_id(
-        #     model_id="gpt2",
-        #     task="text-generation",
-        #     device=0,  # replace with device_map="auto" to use the accelerate library.
-        #     pipeline_kwargs={"max_new_tokens": 10},
+        # self.llm = OllamaLLM(
+        #     model=model,
+        #     temperature=0.5,
+        #     format="json",
         # )
+
+        self.llm = HuggingFacePipeline.from_model_id(
+            model_id="meta-llama/Llama-3.2-1B-Instruct",
+            task="text-generation",
+            device_map="cuda",  # use the accelerate library.
+            # pipeline_kwargs={"max_new_tokens": 1000},
+        )
 
         self.chain = (
             {
