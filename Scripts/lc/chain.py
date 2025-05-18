@@ -132,14 +132,19 @@ Response:""",
     def run(self, synset_id, wn_data):
         return self.chain.invoke({"synset_id": synset_id, "wn_data": wn_data})
 
-
-# Chain architecture
-# 1. Input - Synset ID
-# 2. Retrieval of the hypernym tree, direct holonyms and attributes
-# 3. Formatting the information for the retrieved synsets
-# 4. Formatting with a system prompt, rules, instructions, and response format
-# 5. Model inference
-# 6. Output
-
-# The expected output from the model is in JSON format or a table, clearly showing the old and new relations.
-# Additionally, reasoning for the changes is provided in 3-5 sentences.
+class BreakDownHypernymResolver:
+    def __init__(self, model):
+        self.augmentation_prompt = PromptTemplate(
+            template_format="jinja2",
+            template="""Give a common meaning which applies for all of the following list of words:
+({% for word in words %}{{ word }}{% if not loop.last %}, {% endif %}{% endfor %})
+Reply only with the result.""",
+            input_variables=["words"],
+        )
+        self.rank_non_hypernym_prompt = PromptTemplate(
+            template_format="jinja2",
+            template="""In terms of semantic relations between concepts, rank the following possible semantic relations from the concept ({{ concept_a }}) to the concept ({{ concept_b }}) in order from most likely to least likely:
+"part holonym", "substance holonym", "member holonym", "part meronym", "substance meronym", "member meronym", "topic domain", "region domain", "usage domain", "topic domain member", "region domain member", "usage domain member", "attribute", "no relation", other relation - state the relation with only letters and spaces, and a description after a | symbol (if any may be applicable and no synonymous to the previous ones).
+A relation R from concept A to concept B means "B is a R of A".
+Reply with a comma-delimited list only, without bullets, numbers, or reasoning. Include all options in the list.""",
+        )
