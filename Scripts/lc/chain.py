@@ -18,31 +18,24 @@ Words for {{ synset.id }}: {% for word in synset.words %}{{ word.word }}{% if no
 Gloss (meaning) for {{ synset.id }}: {{ synset.gloss }}
 {%- if synset.hypernyms is defined %}{% for relation in synset.hypernyms %}
 {{ synset.id }} has a hypernym relation to {{ relation.id }}.
-I.e. {{ relation.id }} is a hypernym of {{ synset.id }} and {{ synset.id }} is a hyponym of {{ relation.id }}.
 {%- endfor %}{% endif %}{# synset.hypernyms #}
 {%- if synset.holonyms is defined %}{% for relation in synset.holonyms %}
 {{ synset.id }} has a {{ relation.type }} holonym relation to {{ relation.id }}.
-I.e. {{ relation.id }} is a {{ relation.type }} holonym of {{ synset.id }} and {{ synset.id }} is a {{ relation.type }} meronym of {{ relation.id }}.
 {%- endfor %}{% endif %}{# synset.holonyms #}
 {%- if synset.meronyms is defined %}{% for relation in synset.meronyms %}
 {{ synset.id }} has a {{ relation.type }} meronym relation to {{ relation.id }}.
-I.e. {{ relation.id }} is a {{ relation.type }} meronym of {{ synset.id }} and {{ synset.id }} is a {{ relation.type }} holonym of {{ relation.id }}.
 {%- endfor %}{% endif %}{# synset.meronyms #}
 {%- if synset.domains is defined %}{% for relation in synset.domains %}
 {{ synset.id }} has a {{ relation.type }} domain relation to {{ relation.id }}.
-I.e. {{ relation.id }} is a {{ relation.type }} domain of {{ synset.id }} and {{ synset.id }} is a member of the {{ relation.type }} domain {{ relation.id }}.
 {%- endfor %}{% endif %}{# synset.domains #}
 {%- if synset.domain_members is defined %}{% for relation in synset.domain_members %}
 {{ synset.id }} has a {{ relation.type }} domain member relation to {{ relation.id }}.
-I.e. {{ relation.id }} is a member of the {{ relation.type }} domain {{ synset.id }} and {{ synset.id }} is a {{ relation.type }} domain of {{ relation.id }}.
 {%- endfor %}{% endif %}{# synset.domain_members #}
 {%- if synset.other_relations is defined %}{% for relation in synset.other_relations %}
 {%- if relation.type == "antonym" -%}
 {{ synset.id }} has an antonym relation to {{ relation.id }}.
-I.e. {{ relation.id }} is an antonym of {{ synset.id }} and {{ synset.id }} is an antonym of {{ relation.id }}.
 {%- elif relation.type == "attribute" -%}
 {{ synset.id }} has an attribute relation to {{ relation.id }}.
-I.e. {{ relation.id }} is an attribute of {{ synset.id }} and {{ synset.id }} has the attribute {{ relation.id }}.
 {%- endif %}{# relation.type #}
 {%- endfor %}{% endif %}{# synset.other_relations #}
 {% endfor %}{# wn_data #}
@@ -70,7 +63,6 @@ other synsets must not be changed.
 Rules:
 The given task synset has a list of relations of the following types:
 - hypernym - regular or instance
-- hyponym - regular or instance
 - holonym - part, substance or member
 - meronym - part, substance or member
 - domain - topic, region or usage
@@ -107,22 +99,21 @@ Task synset ID:
 WordNet data:
 {wn_data}
 ----------------------------------------------------------------
-Response:
-""",
+Response:""",
             input_variables=["synset_id", "wn_data"],
         )
-        # self.llm = OllamaLLM(
-        #     model=model,
-        #     temperature=0.5,
-        #     format="json",
-        # )
-
-        self.llm = HuggingFacePipeline.from_model_id(
-            model_id="meta-llama/Llama-3.2-1B-Instruct",
-            task="text-generation",
-            device_map="cuda",  # use the accelerate library.
-            # pipeline_kwargs={"max_new_tokens": 1000},
+        self.llm = OllamaLLM(
+            model=model,
+            temperature=0.5,
+            format="json",
         )
+
+        # self.llm = HuggingFacePipeline.from_model_id(
+        #     model_id="meta-llama/Llama-3.2-1B-Instruct",
+        #     task="text-generation",
+        #     device_map="cuda",  # use the accelerate library.
+        #     # pipeline_kwargs={"max_new_tokens": 1000},
+        # )
 
         self.chain = (
             {
