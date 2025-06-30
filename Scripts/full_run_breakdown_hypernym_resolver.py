@@ -1,5 +1,5 @@
 import sys
-from lc.chain import BreakDownHypernymResolver
+from Scripts.lc.wordnet_hypernym_resolver import BreakDownHypernymResolver
 import json
 import time
 

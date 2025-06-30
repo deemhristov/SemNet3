@@ -1,4 +1,4 @@
-from lc.chain import WordNetHypernymResolver
+from Scripts.lc.wordnet_hypernym_resolver import WordNetHypernymResolver
 import json
 import random
 
