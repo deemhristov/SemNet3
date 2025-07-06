@@ -2,7 +2,7 @@ import random
 import json
 import sys
 
-# This script converts the raw WordNet 3.1 noun data into a JSON format.
+# This script converts the raw WordNet 3.0 and 3.1 noun data into a JSON format.
 synsets = {}
 
 with (open(sys.argv[1], "r") if len(sys.argv) > 1 else sys.stdin) as file:

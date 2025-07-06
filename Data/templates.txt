@@ -1,0 +1,46 @@
+What are the hypernyms of "{hypo_word}" with meaning "{hypo_gloss}"? -> {hyper_words}, all of which mean {hyper_gloss}.
+"{hypo_word}" with meaning "{hypo_gloss}" has hypernyms -> {hyper_words}, all of which mean {hyper_gloss}.
+:: [gloss] => [words] + [gloss]
+>> relation + target WG
+
+Give me an example hyponym synset of synset {hyper_id} with words {words} with gloss "{hyper_gloss}".
+-> Synset {hypo_id}, containing {hypo_words}, all of which mean {hypo_gloss}.
+Synset {hy per_id} with words {hyper_words} with gloss "{hyper_gloss}" has hyponym
+-> synset {hypo_id}, containing {hypo_words}, all of which mean {hypo_gloss}.
+:: [id] + [words] + [gloss] => [id] + [words] + [gloss]
+>> source IWG + relation + target IWG
+
+Which synset is the hypernym of synset {hypo_id}, containing {hypo_words}, all of which mean "{hypo_gloss}"?
+-> Synset {hyper_id} with words {hyper_words} and gloss "{gloss}"
+The hypernym of synset {hypo_id}, containing {hypo_words}, all of which mean {hypo_gloss}, is
+-> synset {hyper_id} with word[s] {hyper_words} and gloss "{gloss}"
+:: [id] + [words] + [gloss] => [id] + [words] + [gloss]
+>> source IWG + relation + target IWG
+
+What is the gloss for synset with ID {synset_id}?
+-> {gloss}
+The gloss for synset with ID {synset_id} is
+-> "{gloss}".
+:: [id] + [gloss]
+>> IG
+
+Which synset has definition "{gloss}"?
+-> {synset_id}
+The definition "{gloss}" belongs to
+-> synset with ID {synset_id}.
+:: [id] + [gloss]
+>> IG
+
+What words are in synset with ID {synset_id}?
+-> {synset_words}
+Synset with ID {synset_id} contains
+-> the words {synset_words}.
+:: [id] + [words]
+>> IW
+
+Which synsets is "{word}" part of?
+-> {sinset_ids}.
+"{word}" is in
+-> synset[s] with ID[s] {sinset_ids}.
+:: [id]
+>> I
