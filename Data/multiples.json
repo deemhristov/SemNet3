@@ -6,7 +6,7 @@
         },
         "30-00007347-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-00019613-n": {
@@ -16,7 +16,7 @@
         },
         "30-13809207-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-00057748-n": {
@@ -36,7 +36,7 @@
         },
         "30-01234345-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-00100253-n": {
@@ -46,7 +46,7 @@
         },
         "30-06157326-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-00117578-n": {
@@ -206,7 +206,7 @@
         },
         "30-01022178-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-00428270-n": {
@@ -216,7 +216,7 @@
         },
         "30-06157326-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-00429713-n": {
@@ -566,7 +566,7 @@
         },
         "30-00935005-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-00716179-n": {
@@ -606,7 +606,7 @@
         },
         "30-06789411-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-00768921-n": {
@@ -622,7 +622,7 @@
     "30-00772550-n": {
         "30-00768203-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-00974444-n": {
             "old": "hypernym",
@@ -672,7 +672,7 @@
     "30-00842281-n": {
         "30-00359614-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-00838816-n": {
             "old": "hypernym",
@@ -772,7 +772,7 @@
     "30-00949619-n": {
         "30-00609953-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-00949134-n": {
             "old": "hypernym",
@@ -782,7 +782,7 @@
     "30-01015689-n": {
         "30-01014066-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-06073067-n": {
             "old": "hypernym",
@@ -856,7 +856,7 @@
         },
         "30-01107359-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-01162257-n": {
@@ -942,7 +942,7 @@
     "30-01313888-n": {
         "30-00004475-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-00006484-n": {
             "old": "hypernym",
@@ -1276,7 +1276,7 @@
         },
         "30-02496576-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-02503517-n": {
@@ -1286,7 +1286,7 @@
         },
         "30-02503127-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-02513560-n": {
@@ -1496,7 +1496,7 @@
         },
         "30-04550840-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-02746683-n": {
@@ -1648,7 +1648,7 @@
         },
         "30-13875571-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-02799071-n": {
@@ -1658,13 +1658,13 @@
         },
         "30-02799897-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-02799175-n": {
         "30-02799897-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-02806379-n": {
             "old": "hypernym",
@@ -1674,7 +1674,7 @@
     "30-02802215-n": {
         "30-02802721-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03442756-n": {
             "old": "hypernym",
@@ -1688,7 +1688,7 @@
         },
         "30-02802721-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-02803934-n": {
@@ -1724,7 +1724,7 @@
     "30-02805443-n": {
         "30-03592245-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04005630-n": {
             "old": "hypernym",
@@ -1754,7 +1754,7 @@
     "30-02811204-n": {
         "30-02799897-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03441112-n": {
             "old": "hypernym",
@@ -1764,7 +1764,7 @@
     "30-02811350-n": {
         "30-02799897-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03513137-n": {
             "old": "hypernym",
@@ -1774,7 +1774,7 @@
     "30-02815950-n": {
         "30-03932203-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04341414-n": {
             "old": "hypernym",
@@ -1928,7 +1928,7 @@
         },
         "30-06605396-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-02929749-n": {
@@ -1978,13 +1978,13 @@
         },
         "30-04060904-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-02983189-n": {
         "30-02799897-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03314378-n": {
             "old": "hypernym",
@@ -2018,7 +2018,7 @@
         },
         "30-03013162-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         }
     },
     "30-03022406-n": {
@@ -2074,7 +2074,7 @@
     "30-03035510-n": {
         "30-03982060-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04078574-n": {
             "old": "hypernym",
@@ -2108,7 +2108,7 @@
         },
         "30-03872495-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-03050655-n": {
@@ -2202,7 +2202,7 @@
         },
         "30-03132261-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03134739-n": {
@@ -2212,13 +2212,13 @@
         },
         "30-03134853-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03135030-n": {
         "30-03134853-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03715892-n": {
             "old": "hypernym",
@@ -2228,7 +2228,7 @@
     "30-03138669-n": {
         "30-03139464-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03597317-n": {
             "old": "hypernym",
@@ -2252,7 +2252,7 @@
         },
         "30-03133538-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03151077-n": {
@@ -2262,7 +2262,7 @@
         },
         "30-03405265-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03167464-n": {
@@ -2288,21 +2288,21 @@
     "30-03199142-n": {
         "30-02720725-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-03809939-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-03247620-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
     "30-03201035-n": {
         "30-03200906-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03201208-n": {
             "old": "hypernym",
@@ -2326,7 +2326,7 @@
         },
         "30-04285146-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03206908-n": {
@@ -2336,7 +2336,7 @@
         },
         "30-03133538-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03208556-n": {
@@ -2356,7 +2356,7 @@
         },
         "30-03004146-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-03224893-n": {
@@ -2416,7 +2416,7 @@
         },
         "30-03267821-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-03273740-n": {
@@ -2533,7 +2533,7 @@
             "new": "property"
         },
         "30-03716327-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -2544,7 +2544,7 @@
         },
         "30-03926148-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03368141-n": {
@@ -2591,7 +2591,7 @@
             "new": "property"
         },
         "30-03716327-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -2632,7 +2632,7 @@
         },
         "30-03434428-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-03440512-n": {
@@ -2652,7 +2652,7 @@
         },
         "30-03446832-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03445777-n": {
@@ -2662,13 +2662,13 @@
         },
         "30-03446832-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03445924-n": {
         "30-03446832-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03791235-n": {
             "old": "hypernym",
@@ -2682,7 +2682,7 @@
         },
         "30-03446832-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03452055-n": {
@@ -2882,7 +2882,7 @@
         },
         "30-04580298-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-03594148-n": {
@@ -2892,7 +2892,7 @@
         },
         "30-04285146-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03594734-n": {
@@ -2938,7 +2938,7 @@
     "30-03610524-n": {
         "30-03859280-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04191943-n": {
             "old": "hypernym",
@@ -2958,7 +2958,7 @@
     "30-03622931-n": {
         "30-04254777-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04323819-n": {
             "old": "hypernym",
@@ -2998,14 +2998,14 @@
     "30-03648219-n": {
         "30-03419014-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-04580298-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-03252064-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -3016,7 +3016,7 @@
         },
         "30-04077734-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03685820-n": {
@@ -3243,7 +3243,7 @@
             "new": "property"
         },
         "30-03716327-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -3294,7 +3294,7 @@
         },
         "30-03414162-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-03876231-n": {
@@ -3314,7 +3314,7 @@
         },
         "30-03572449-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-03902972-n": {
@@ -3354,7 +3354,7 @@
         },
         "30-14609198-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-03924811-n": {
@@ -3370,7 +3370,7 @@
     "30-03924978-n": {
         "30-03180969-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04470953-n": {
             "old": "hypernym",
@@ -3414,7 +3414,7 @@
     "30-03942397-n": {
         "30-02799897-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-04045941-n": {
             "old": "hypernym",
@@ -3484,7 +3484,7 @@
     "30-03982430-n": {
         "30-03414162-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-04379243-n": {
             "old": "hypernym",
@@ -3678,7 +3678,7 @@
         },
         "30-02799897-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-04116098-n": {
@@ -3698,7 +3698,7 @@
         },
         "30-03405265-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-04125541-n": {
@@ -3778,7 +3778,7 @@
         },
         "30-04191943-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04149813-n": {
@@ -3788,7 +3788,7 @@
         },
         "30-04217882-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04157320-n": {
@@ -3828,7 +3828,7 @@
         },
         "30-03926148-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-04179913-n": {
@@ -3848,7 +3848,7 @@
         },
         "30-06851742-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04186051-n": {
@@ -3915,7 +3915,7 @@
             "new": "property"
         },
         "30-03716327-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -3936,7 +3936,7 @@
         },
         "30-04295881-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-04236182-n": {
@@ -4006,7 +4006,7 @@
         },
         "30-03153375-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-04284735-n": {
@@ -4016,7 +4016,7 @@
         },
         "30-04285146-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-04294614-n": {
@@ -4102,7 +4102,7 @@
     "30-04354589-n": {
         "30-02869837-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04356595-n": {
             "old": "hypernym",
@@ -4152,7 +4152,7 @@
     "30-04380346-n": {
         "30-03153375-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03623556-n": {
             "old": "hypernym",
@@ -4186,7 +4186,7 @@
     "30-04399537-n": {
         "30-03446832-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-03905540-n": {
             "old": "hypernym",
@@ -4200,7 +4200,7 @@
         },
         "30-03644248-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04412416-n": {
@@ -4250,7 +4250,7 @@
         },
         "30-03400389-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         }
     },
     "30-04423174-n": {
@@ -4366,7 +4366,7 @@
     "30-04458633-n": {
         "30-03074380-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-03282591-n": {
             "old": "hypernym",
@@ -4426,7 +4426,7 @@
     "30-04502197-n": {
         "30-03595614-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04370048-n": {
             "old": "hypernym",
@@ -4450,7 +4450,7 @@
         },
         "30-06071934-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04526800-n": {
@@ -4550,7 +4550,7 @@
         },
         "30-03982060-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04566561-n": {
@@ -4590,7 +4590,7 @@
         },
         "30-03563200-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04597913-n": {
@@ -4620,7 +4620,7 @@
         },
         "30-05192451-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04696432-n": {
@@ -4636,7 +4636,7 @@
     "30-04706882-n": {
         "30-04706290-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04780958-n": {
             "old": "hypernym",
@@ -4650,7 +4650,7 @@
         },
         "30-04876053-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04840405-n": {
@@ -4660,7 +4660,7 @@
         },
         "30-04847991-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04850117-n": {
@@ -4696,7 +4696,7 @@
     "30-04920237-n": {
         "30-04616059-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04731497-n": {
             "old": "hypernym",
@@ -4706,7 +4706,7 @@
     "30-04953380-n": {
         "30-04633453-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-04679738-n": {
             "old": "hypernym",
@@ -4720,7 +4720,7 @@
         },
         "30-04953954-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-04992431-n": {
@@ -4766,7 +4766,7 @@
     "30-05015117-n": {
         "30-04522421-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-05011790-n": {
             "old": "hypernym",
@@ -4810,7 +4810,7 @@
         },
         "30-05093581-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13575869-n": {
             "old": "hypernym",
@@ -4824,7 +4824,7 @@
         },
         "30-05160574-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-05214599-n": {
@@ -4880,7 +4880,7 @@
     "30-05263732-n": {
         "30-05263587-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-05514410-n": {
             "old": "hypernym",
@@ -4890,14 +4890,14 @@
     "30-05268797-n": {
         "30-05267548-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13095685-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-05267345-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -4914,14 +4914,14 @@
     "30-05294995-n": {
         "30-05267548-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13095685-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-05267345-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -4952,7 +4952,7 @@
         },
         "30-05461816-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-05399034-n": {
@@ -5024,7 +5024,7 @@
         },
         "30-14573553-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-05449959-n": {
@@ -5054,34 +5054,34 @@
         },
         "30-14866889-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-05490578-n": {
         "30-05267548-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13095685-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-05267345-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
     "30-05490799-n": {
         "30-05267548-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13095685-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-05267345-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -5112,13 +5112,13 @@
         },
         "30-05462674-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-05515287-n": {
         "30-05514717-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-05524430-n": {
             "old": "hypernym",
@@ -5132,7 +5132,7 @@
         },
         "30-05514717-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-05520479-n": {
@@ -5146,7 +5146,7 @@
         },
         "30-05310790-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-05524615-n": {
@@ -5156,7 +5156,7 @@
         },
         "30-05525252-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-05529729-n": {
@@ -5176,7 +5176,7 @@
         },
         "30-05461816-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-05561834-n": {
@@ -5316,7 +5316,7 @@
         },
         "30-14034177-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-05722208-n": {
@@ -5392,7 +5392,7 @@
     "30-05946687-n": {
         "30-04847991-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-05941423-n": {
             "old": "hypernym",
@@ -5402,7 +5402,7 @@
     "30-05973603-n": {
         "30-06167328-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-06186301-n": {
             "old": "hypernym",
@@ -5412,7 +5412,7 @@
     "30-06041600-n": {
         "30-06018465-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-06037298-n": {
             "old": "hypernym",
@@ -5422,7 +5422,7 @@
     "30-06051925-n": {
         "30-06051542-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-06084469-n": {
             "old": "hypernym",
@@ -5432,7 +5432,7 @@
     "30-06070503-n": {
         "30-06037666-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-06060049-n": {
             "old": "hypernym",
@@ -5446,7 +5446,7 @@
         },
         "30-06075527-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-06074372-n": {
@@ -5456,13 +5456,13 @@
         },
         "30-06078724-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-06074860-n": {
         "30-06078724-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-06083243-n": {
             "old": "hypernym",
@@ -5476,7 +5476,7 @@
         },
         "30-06073888-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-06081602-n": {
@@ -5486,7 +5486,7 @@
         },
         "30-06081833-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-06104578-n": {
@@ -5506,34 +5506,34 @@
         },
         "30-06156968-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-06133503-n": {
         "30-06133203-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-06168552-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-05996646-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
     "30-06145729-n": {
         "30-06060845-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-06144081-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-05999797-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -5544,7 +5544,7 @@
         },
         "30-06153846-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-06154724-n": {
@@ -5554,7 +5554,7 @@
         },
         "30-06153846-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-06155075-n": {
@@ -5564,7 +5564,7 @@
         },
         "30-06153846-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-06187756-n": {
@@ -5714,7 +5714,7 @@
         },
         "30-06306233-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-06308987-n": {
@@ -5747,7 +5747,7 @@
             "new": "form of"
         },
         "30-05093890-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -5761,7 +5761,7 @@
             "new": "form of"
         },
         "30-05093890-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -5775,7 +5775,7 @@
             "new": "form of"
         },
         "30-05093890-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -5796,7 +5796,7 @@
         },
         "30-10546202-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-06344998-n": {
@@ -5826,7 +5826,7 @@
         },
         "30-06356515-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-06363778-n": {
@@ -5842,14 +5842,14 @@
     "30-06392001-n": {
         "30-06362953-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-07020895-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-00033020-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -5880,7 +5880,7 @@
         },
         "30-08266235-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-06489968-n": {
@@ -5996,7 +5996,7 @@
     "30-06632671-n": {
         "30-06629392-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-06630017-n": {
             "old": "hypernym",
@@ -6006,7 +6006,7 @@
     "30-06632807-n": {
         "30-06629392-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-06630017-n": {
             "old": "hypernym",
@@ -6016,7 +6016,7 @@
     "30-06634239-n": {
         "30-06628861-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-06634095-n": {
             "old": "hypernym",
@@ -6106,7 +6106,7 @@
     "30-06795290-n": {
         "30-03853734-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-06794666-n": {
             "old": "hypernym",
@@ -6180,13 +6180,13 @@
         },
         "30-06963951-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-06948396-n": {
         "30-06947032-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         },
         "30-07128692-n": {
             "old": "hypernym",
@@ -6213,7 +6213,7 @@
             "new": "property"
         },
         "30-06619065-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -6240,7 +6240,7 @@
     "30-07039770-n": {
         "30-07037465-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07044917-n": {
             "old": "hypernym",
@@ -6250,7 +6250,7 @@
     "30-07039949-n": {
         "30-07037465-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07044917-n": {
             "old": "hypernym",
@@ -6260,7 +6260,7 @@
     "30-07040148-n": {
         "30-07037465-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07044917-n": {
             "old": "hypernym",
@@ -6270,7 +6270,7 @@
     "30-07046543-n": {
         "30-07037465-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07044917-n": {
             "old": "hypernym",
@@ -6280,7 +6280,7 @@
     "30-07047804-n": {
         "30-07037465-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07044917-n": {
             "old": "hypernym",
@@ -6294,7 +6294,7 @@
         },
         "30-07060167-n": {
             "old": "hypernym",
-            "new": "holo_part"
+            "new": "holonym"
         }
     },
     "30-07051185-n": {
@@ -6334,7 +6334,7 @@
         },
         "30-07062697-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-07064055-n": {
@@ -6370,7 +6370,7 @@
     "30-07086323-n": {
         "30-05938976-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07083732-n": {
             "old": "hypernym",
@@ -6380,7 +6380,7 @@
     "30-07104292-n": {
         "30-06759063-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07098193-n": {
             "old": "hypernym",
@@ -6390,14 +6390,14 @@
     "30-07117472-n": {
         "30-07115914-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-07117007-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-07115021-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -6424,7 +6424,7 @@
     "30-07154046-n": {
         "30-06765044-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07154243-n": {
             "old": "hypernym",
@@ -6438,7 +6438,7 @@
         },
         "30-06876309-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-07186148-n": {
@@ -6454,7 +6454,7 @@
     "30-07216228-n": {
         "30-07216083-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07234230-n": {
             "old": "hypernym",
@@ -6524,7 +6524,7 @@
     "30-07274425-n": {
         "30-01228102-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-06876309-n": {
             "old": "hypernym",
@@ -6704,7 +6704,7 @@
     "30-07533257-n": {
         "30-07521674-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07533097-n": {
             "old": "hypernym",
@@ -6718,13 +6718,13 @@
         },
         "30-07538965-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-07540424-n": {
         "30-07518261-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07539511-n": {
             "old": "hypernym",
@@ -6738,7 +6738,7 @@
         },
         "30-07553741-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-07548366-n": {
@@ -6748,7 +6748,7 @@
         },
         "30-07547805-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-07551890-n": {
@@ -6758,13 +6758,13 @@
         },
         "30-07551691-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-07555647-n": {
         "30-07527352-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07555014-n": {
             "old": "hypernym",
@@ -6808,7 +6808,7 @@
         },
         "30-14590975-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-07616046-n": {
@@ -6818,7 +6818,7 @@
         },
         "30-07849336-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-07633229-n": {
@@ -6854,7 +6854,7 @@
     "30-07671953-n": {
         "30-07649582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07651454-n": {
             "old": "hypernym",
@@ -6864,7 +6864,7 @@
     "30-07677071-n": {
         "30-07649582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07675627-n": {
             "old": "hypernym",
@@ -6874,7 +6874,7 @@
     "30-07678428-n": {
         "30-07649582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07654438-n": {
             "old": "hypernym",
@@ -6884,7 +6884,7 @@
     "30-07679356-n": {
         "30-07566863-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-07622061-n": {
             "old": "hypernym",
@@ -7102,13 +7102,13 @@
         },
         "30-07844042-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-07848338-n": {
         "30-07555863-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07843775-n": {
             "old": "hypernym",
@@ -7125,14 +7125,14 @@
             "new": "form of"
         },
         "30-02852523-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
     "30-07849336-n": {
         "30-07555863-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07843775-n": {
             "old": "hypernym",
@@ -7142,7 +7142,7 @@
     "30-07850329-n": {
         "30-07555863-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07843775-n": {
             "old": "hypernym",
@@ -7156,10 +7156,10 @@
         },
         "30-07683786-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07649582-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -7206,7 +7206,7 @@
     "30-07894102-n": {
         "30-07892512-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07893891-n": {
             "old": "hypernym",
@@ -7216,7 +7216,7 @@
     "30-07894298-n": {
         "30-07892512-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07895237-n": {
             "old": "hypernym",
@@ -7226,7 +7226,7 @@
     "30-07894551-n": {
         "30-07892813-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07893891-n": {
             "old": "hypernym",
@@ -7236,7 +7236,7 @@
     "30-07894703-n": {
         "30-07892813-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07893891-n": {
             "old": "hypernym",
@@ -7246,7 +7246,7 @@
     "30-07895435-n": {
         "30-07892512-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07895237-n": {
             "old": "hypernym",
@@ -7256,7 +7256,7 @@
     "30-07909593-n": {
         "30-07907548-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-07907943-n": {
             "old": "hypernym",
@@ -7270,7 +7270,7 @@
         },
         "30-07921455-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-07924955-n": {
@@ -7280,7 +7280,7 @@
         },
         "30-07924834-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-07935504-n": {
@@ -7324,13 +7324,13 @@
         },
         "30-07609840-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-08001685-n": {
         "30-00028651-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-07999699-n": {
             "old": "hypernym",
@@ -7350,7 +7350,7 @@
     "30-08101410-n": {
         "30-07993929-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08101085-n": {
             "old": "hypernym",
@@ -7374,13 +7374,13 @@
         },
         "30-08348815-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-08154960-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7390,7 +7390,7 @@
     "30-08155302-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7400,7 +7400,7 @@
     "30-08155518-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7410,7 +7410,7 @@
     "30-08155765-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7420,7 +7420,7 @@
     "30-08156685-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7430,7 +7430,7 @@
     "30-08157672-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7440,7 +7440,7 @@
     "30-08157809-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7450,7 +7450,7 @@
     "30-08158460-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7460,7 +7460,7 @@
     "30-08159924-n": {
         "30-07971582-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08153437-n": {
             "old": "hypernym",
@@ -7520,7 +7520,7 @@
     "30-08215801-n": {
         "30-08215248-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08215603-n": {
             "old": "hypernym",
@@ -7530,7 +7530,7 @@
     "30-08270417-n": {
         "30-08430203-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08430568-n": {
             "old": "hypernym",
@@ -7544,7 +7544,7 @@
         },
         "30-08466643-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-08276053-n": {
@@ -7554,13 +7554,13 @@
         },
         "30-08466643-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-08285719-n": {
         "30-08214272-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08390511-n": {
             "old": "hypernym",
@@ -7610,7 +7610,7 @@
     "30-08385989-n": {
         "30-07574602-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08310389-n": {
             "old": "hypernym",
@@ -7644,7 +7644,7 @@
         },
         "30-08466643-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-08468721-n": {
@@ -7654,7 +7654,7 @@
         },
         "30-08466643-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-08470034-n": {
@@ -7664,7 +7664,7 @@
         },
         "30-08466643-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-08473173-n": {
@@ -7694,13 +7694,13 @@
         },
         "30-00028651-n": {
             "old": "hypernym",
-            "new": "holo_portion"
+            "new": "holonym"
         }
     },
     "30-08505573-n": {
         "30-07941945-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-08673395-n": {
             "old": "hypernym",
@@ -7720,7 +7720,7 @@
     "30-08598301-n": {
         "30-07941945-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-08673395-n": {
             "old": "hypernym",
@@ -7800,7 +7800,7 @@
     "30-09264803-n": {
         "30-09193282-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-09287968-n": {
             "old": "hypernym",
@@ -7810,14 +7810,14 @@
     "30-09284015-n": {
         "30-07941945-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-09334396-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-08673395-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -7828,7 +7828,7 @@
         },
         "30-09400037-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         }
     },
     "30-09308572-n": {
@@ -7874,7 +7874,7 @@
     "30-09636339-n": {
         "30-00007846-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-09636106-n": {
             "old": "hypernym",
@@ -8034,7 +8034,7 @@
     "30-09676490-n": {
         "30-07967382-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-09691279-n": {
             "old": "hypernym",
@@ -8051,7 +8051,7 @@
             "new": "origin"
         },
         "30-00007846-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -8065,7 +8065,7 @@
             "new": "origin"
         },
         "30-00007846-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -8119,7 +8119,7 @@
             "new": "function"
         },
         "30-09610660-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -8170,7 +8170,7 @@
         },
         "30-10694258-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-09835506-n": {
@@ -8180,7 +8180,7 @@
         },
         "30-10439851-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-09836786-n": {
@@ -8213,7 +8213,7 @@
             "new": "function"
         },
         "30-10605985-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -8234,7 +8234,7 @@
         },
         "30-10243137-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-09864761-n": {
@@ -8367,7 +8367,7 @@
             "new": "property"
         },
         "30-10560637-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -8418,7 +8418,7 @@
         },
         "30-10533983-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-09990777-n": {
@@ -8454,7 +8454,7 @@
     "30-09995573-n": {
         "30-09761068-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-09998101-n": {
             "old": "hypernym",
@@ -8484,7 +8484,7 @@
     "30-10051337-n": {
         "30-09998101-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10707804-n": {
             "old": "hypernym",
@@ -8514,7 +8514,7 @@
     "30-10082043-n": {
         "30-10080869-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10207169-n": {
             "old": "hypernym",
@@ -8578,7 +8578,7 @@
         },
         "30-10439851-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10106387-n": {
@@ -8641,7 +8641,7 @@
             "new": "function"
         },
         "30-09820263-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -8722,7 +8722,7 @@
         },
         "30-10439851-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10199251-n": {
@@ -8782,7 +8782,7 @@
         },
         "30-10060175-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10218043-n": {
@@ -8795,14 +8795,14 @@
             "new": "hypernym"
         },
         "30-00007846-n": {
-            "old": "",
-            "new": ""
+            "old": null,
+            "new": null
         }
     },
     "30-10220228-n": {
         "30-09673495-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10622053-n": {
             "old": "hypernym",
@@ -8856,7 +8856,7 @@
         },
         "30-10439851-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10252075-n": {
@@ -8882,7 +8882,7 @@
     "30-10253995-n": {
         "30-10249270-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10451263-n": {
             "old": "hypernym",
@@ -8956,7 +8956,7 @@
         },
         "30-10541833-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10316164-n": {
@@ -8982,7 +8982,7 @@
     "30-10322391-n": {
         "30-09623038-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-09998101-n": {
             "old": "hypernym",
@@ -9016,7 +9016,7 @@
         },
         "30-10332385-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10334567-n": {
@@ -9079,7 +9079,7 @@
             "new": "property"
         },
         "30-10560637-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -9096,7 +9096,7 @@
     "30-10364333-n": {
         "30-07967382-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-09700492-n": {
             "old": "hypernym",
@@ -9183,7 +9183,7 @@
             "new": "function"
         },
         "30-09632518-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -9270,7 +9270,7 @@
     "30-10447359-n": {
         "30-10249011-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10444194-n": {
             "old": "hypernym",
@@ -9330,7 +9330,7 @@
     "30-10476928-n": {
         "30-09977178-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10371741-n": {
             "old": "hypernym",
@@ -9367,7 +9367,7 @@
             "new": "property"
         },
         "30-10560637-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -9378,7 +9378,7 @@
         },
         "30-10541229-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10495555-n": {
@@ -9434,7 +9434,7 @@
     "30-10525436-n": {
         "30-10018861-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10309896-n": {
             "old": "hypernym",
@@ -9484,14 +9484,14 @@
     "30-10563183-n": {
         "30-10084295-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10285313-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-09917593-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -9569,7 +9569,7 @@
             "new": "property"
         },
         "30-00007846-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -9580,7 +9580,7 @@
         },
         "30-10439851-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10627714-n": {
@@ -9593,7 +9593,7 @@
             "new": "property"
         },
         "30-00007846-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -9610,7 +9610,7 @@
     "30-10634075-n": {
         "30-09606009-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10118844-n": {
             "old": "hypernym",
@@ -9660,7 +9660,7 @@
     "30-10662306-n": {
         "30-10070942-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-10365399-n": {
             "old": "hypernym",
@@ -9724,7 +9724,7 @@
         },
         "30-10439851-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10725438-n": {
@@ -9744,7 +9744,7 @@
         },
         "30-10638385-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10742384-n": {
@@ -9804,7 +9804,7 @@
         },
         "30-10630188-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-10764128-n": {
@@ -9970,7 +9970,7 @@
     "30-11484741-n": {
         "30-11501381-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-11525955-n": {
             "old": "hypernym",
@@ -9994,20 +9994,20 @@
         },
         "30-11501381-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         }
     },
     "30-11511765-n": {
         "30-11425401-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-11449002-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-11419404-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10024,7 +10024,7 @@
     "30-11530008-n": {
         "30-00017222-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-01326291-n": {
             "old": "hypernym",
@@ -10054,7 +10054,7 @@
     "30-11729478-n": {
         "30-13100677-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13102409-n": {
             "old": "hypernym",
@@ -10078,7 +10078,7 @@
         },
         "30-11827775-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-11856055-n": {
@@ -10098,7 +10098,7 @@
         },
         "30-12100538-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-12144399-n": {
@@ -10118,7 +10118,7 @@
         },
         "30-12149751-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-12226322-n": {
@@ -10128,7 +10128,7 @@
         },
         "30-12226009-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-12411710-n": {
@@ -10138,7 +10138,7 @@
         },
         "30-12411084-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-12548134-n": {
@@ -10148,20 +10148,20 @@
         },
         "30-12501745-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-12711817-n": {
         "30-12707432-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         },
         "30-12711596-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-12707781-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10192,7 +10192,7 @@
         },
         "30-12930044-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-12941360-n": {
@@ -10202,7 +10202,7 @@
         },
         "30-12930044-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-12942025-n": {
@@ -10232,7 +10232,7 @@
         },
         "30-13083586-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13247554-n": {
@@ -10245,7 +10245,7 @@
             "new": "property"
         },
         "30-00001740-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10259,14 +10259,14 @@
             "new": "property"
         },
         "30-08513718-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
     "30-13263779-n": {
         "30-13262913-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13265011-n": {
             "old": "hypernym",
@@ -10276,7 +10276,7 @@
     "30-13264076-n": {
         "30-13262913-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13265011-n": {
             "old": "hypernym",
@@ -10290,7 +10290,7 @@
         },
         "30-13268146-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13266348-n": {
@@ -10300,13 +10300,13 @@
         },
         "30-13268146-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13267534-n": {
         "30-13265904-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13266892-n": {
             "old": "hypernym",
@@ -10316,14 +10316,14 @@
     "30-13272283-n": {
         "30-13268146-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13273154-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-09179776-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10360,7 +10360,7 @@
     "30-13374979-n": {
         "30-13374426-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13398953-n": {
             "old": "hypernym",
@@ -10370,7 +10370,7 @@
     "30-13375167-n": {
         "30-13374426-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13398953-n": {
             "old": "hypernym",
@@ -10387,7 +10387,7 @@
             "new": "used for"
         },
         "30-13376426-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10398,10 +10398,10 @@
         },
         "30-13375323-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13376426-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10412,10 +10412,10 @@
         },
         "30-13375323-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13376426-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10456,7 +10456,7 @@
         },
         "30-13572436-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13459322-n": {
@@ -10466,7 +10466,7 @@
         },
         "30-13542947-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13484644-n": {
@@ -10496,7 +10496,7 @@
         },
         "30-13527965-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13513540-n": {
@@ -10512,7 +10512,7 @@
     "30-13542855-n": {
         "30-13440063-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13475205-n": {
             "old": "hypernym",
@@ -10562,14 +10562,14 @@
     "30-13615557-n": {
         "30-13614764-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13615036-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13600822-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10586,14 +10586,14 @@
     "30-13619920-n": {
         "30-13615235-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13615557-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13600822-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10614,7 +10614,7 @@
         },
         "30-13705415-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13674479-n": {
@@ -10637,7 +10637,7 @@
             "new": "purpose"
         },
         "30-13604718-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10688,7 +10688,7 @@
         },
         "30-13760316-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13776137-n": {
@@ -10698,13 +10698,13 @@
         },
         "30-13757724-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13779570-n": {
         "30-05739043-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13779374-n": {
             "old": "hypernym",
@@ -10714,14 +10714,14 @@
     "30-13780339-n": {
         "30-13711060-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13715124-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-05924920-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10735,7 +10735,7 @@
             "new": "function"
         },
         "30-00031921-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -10749,14 +10749,14 @@
             "new": "function"
         },
         "30-00031921-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
     "30-13852395-n": {
         "30-13577171-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13850304-n": {
             "old": "hypernym",
@@ -10766,7 +10766,7 @@
     "30-13872211-n": {
         "30-05303402-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-13864965-n": {
             "old": "hypernym",
@@ -10810,7 +10810,7 @@
         },
         "30-13867492-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-13915417-n": {
@@ -10830,7 +10830,7 @@
         },
         "30-13998014-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-14016114-n": {
@@ -10846,7 +10846,7 @@
     "30-14030671-n": {
         "30-05646039-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14030435-n": {
             "old": "hypernym",
@@ -10856,7 +10856,7 @@
     "30-14045141-n": {
         "30-14044930-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14557898-n": {
             "old": "hypernym",
@@ -10866,14 +10866,14 @@
     "30-14051201-n": {
         "30-13987423-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-14049711-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-00024720-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -11034,7 +11034,7 @@
     "30-14121058-n": {
         "30-14120767-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14187378-n": {
             "old": "hypernym",
@@ -11314,7 +11314,7 @@
         },
         "30-14166118-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-14168792-n": {
@@ -11374,14 +11374,14 @@
     "30-14173295-n": {
         "30-14147627-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-14173013-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-14070360-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -11468,7 +11468,7 @@
     "30-14203346-n": {
         "30-14055408-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14359952-n": {
             "old": "hypernym",
@@ -11652,7 +11652,7 @@
         },
         "30-14288235-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-14290365-n": {
@@ -11682,7 +11682,7 @@
         },
         "30-14370267-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-14314850-n": {
@@ -11748,7 +11748,7 @@
     "30-14350536-n": {
         "30-14350292-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14452616-n": {
             "old": "hypernym",
@@ -11765,7 +11765,7 @@
             "new": "property"
         },
         "30-14336539-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -11779,7 +11779,7 @@
             "new": "property"
         },
         "30-14336539-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -11850,7 +11850,7 @@
         },
         "30-14288235-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-14417300-n": {
@@ -11870,7 +11870,7 @@
         },
         "30-14505821-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-14466974-n": {
@@ -11926,7 +11926,7 @@
     "30-14505469-n": {
         "30-14210354-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14504889-n": {
             "old": "hypernym",
@@ -11956,7 +11956,7 @@
     "30-14531392-n": {
         "30-14501726-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14531983-n": {
             "old": "hypernym",
@@ -12073,7 +12073,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12097,7 +12097,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12135,7 +12135,7 @@
             "new": "property"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12162,7 +12162,7 @@
     "30-14612077-n": {
         "30-14586769-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14625458-n": {
             "old": "hypernym",
@@ -12212,7 +12212,7 @@
     "30-14628119-n": {
         "30-14627820-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-15011987-n": {
             "old": "hypernym",
@@ -12222,7 +12222,7 @@
     "30-14628307-n": {
         "30-14627820-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-15011987-n": {
             "old": "hypernym",
@@ -12232,7 +12232,7 @@
     "30-14628920-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14624369-n": {
             "old": "hypernym",
@@ -12242,7 +12242,7 @@
     "30-14629561-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14904661-n": {
             "old": "hypernym",
@@ -12252,7 +12252,7 @@
     "30-14632129-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14904661-n": {
             "old": "hypernym",
@@ -12262,7 +12262,7 @@
     "30-14634591-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14877585-n": {
             "old": "hypernym",
@@ -12286,7 +12286,7 @@
     "30-14637507-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14877585-n": {
             "old": "hypernym",
@@ -12310,7 +12310,7 @@
     "30-14639921-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14624369-n": {
             "old": "hypernym",
@@ -12340,7 +12340,7 @@
     "30-14641397-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14904661-n": {
             "old": "hypernym",
@@ -12370,7 +12370,7 @@
     "30-14642916-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14624369-n": {
             "old": "hypernym",
@@ -12380,7 +12380,7 @@
     "30-14646152-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14624369-n": {
             "old": "hypernym",
@@ -12410,7 +12410,7 @@
     "30-14652104-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14624369-n": {
             "old": "hypernym",
@@ -12450,7 +12450,7 @@
     "30-14661274-n": {
         "30-14622893-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14624369-n": {
             "old": "hypernym",
@@ -12474,7 +12474,7 @@
         },
         "30-14672023-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-14673978-n": {
@@ -12507,7 +12507,7 @@
             "new": "property"
         },
         "30-14937521-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12518,7 +12518,7 @@
         },
         "30-14937521-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-14679780-n": {
@@ -12531,7 +12531,7 @@
             "new": "property"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12596,10 +12596,10 @@
         },
         "30-14911057-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-14589223-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12610,10 +12610,10 @@
         },
         "30-14911057-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-14589223-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12624,10 +12624,10 @@
         },
         "30-14911057-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-14589223-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12671,7 +12671,7 @@
             "new": "form"
         },
         "30-14951377-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -12688,7 +12688,7 @@
     "30-14695069-n": {
         "30-14662574-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14813182-n": {
             "old": "hypernym",
@@ -12916,7 +12916,7 @@
     "30-14752323-n": {
         "30-14617597-n": {
             "old": "hypernym",
-            "new": "mero_part"
+            "new": "meronym"
         },
         "30-14884120-n": {
             "old": "hypernym",
@@ -12993,7 +12993,7 @@
             "new": "property"
         },
         "30-14966667-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13055,7 +13055,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13139,7 +13139,7 @@
             "new": "property"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13193,7 +13193,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13274,7 +13274,7 @@
         },
         "30-15110956-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         }
     },
     "30-14815263-n": {
@@ -13320,7 +13320,7 @@
     "30-14823227-n": {
         "30-13162297-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-14991712-n": {
             "old": "hypernym",
@@ -13357,7 +13357,7 @@
             "new": "property"
         },
         "30-14740227-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13404,7 +13404,7 @@
     "30-14850826-n": {
         "30-14911057-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14951377-n": {
             "old": "hypernym",
@@ -13431,7 +13431,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13475,7 +13475,7 @@
             "new": "purpose"
         },
         "30-07775375-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13559,7 +13559,7 @@
             "new": "form"
         },
         "30-14589223-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13580,7 +13580,7 @@
         },
         "30-14938907-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-14886579-n": {
@@ -13686,7 +13686,7 @@
     "30-14936226-n": {
         "30-14696793-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14698000-n": {
             "old": "hypernym",
@@ -13813,7 +13813,7 @@
             "new": "function"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13857,7 +13857,7 @@
             "new": "function"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13898,7 +13898,7 @@
         },
         "30-15090742-n": {
             "old": "hypernym",
-            "new": "holo_member"
+            "new": "holonym"
         }
     },
     "30-14976001-n": {
@@ -13961,7 +13961,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13975,7 +13975,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -13989,7 +13989,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -14003,7 +14003,7 @@
             "new": "purpose"
         },
         "30-14818238-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -14064,13 +14064,13 @@
         },
         "30-14943814-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-15004317-n": {
         "30-14732946-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         },
         "30-14735953-n": {
             "old": "hypernym",
@@ -14100,7 +14100,7 @@
     "30-15011987-n": {
         "30-15010703-n": {
             "old": "hypernym",
-            "new": "mero_portion"
+            "new": "meronym"
         },
         "30-15051705-n": {
             "old": "hypernym",
@@ -14148,7 +14148,7 @@
         },
         "30-14943814-n": {
             "old": "hypernym",
-            "new": ""
+            "new": null
         }
     },
     "30-15018169-n": {
@@ -14261,7 +14261,7 @@
             "new": "purpose"
         },
         "30-14586258-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
@@ -14521,7 +14521,7 @@
             "new": "property"
         },
         "30-15113229-n": {
-            "old": "",
+            "old": null,
             "new": "hypernym"
         }
     },
