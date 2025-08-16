@@ -92,7 +92,7 @@ class RanlpHypernymResolver:
         ]
 
         return self.model.invoke(messages).content.strip()
-    
+
     def propose_alternative_relation(self, synset_a, synset_b):
         system_prompt = "You are a WordNet expert. Your task is to evaluate hypernymy relations between semantic concepts. Each semantic concept is represented by a group of words with common meaning. This group is called a synset.\n" # You will work with the following types of relations:\n\n"
         # system_prompt += "If concept A is a holonym of concept B, then concept B is a substance, part or member of concept A, and concept A contains concept B as a substance, part of member.\n"

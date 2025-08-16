@@ -33,7 +33,7 @@ for synset_id, synset_data in result.items():
         if hn not in synset_data.keys():
             different += 1
             continue
-        
+
         # print(synset_data[hn]['new'], multiples[synset_id][hn]['new'])
         if synset_data[hn]['new'] == 'hypernym' and multiples[synset_id][hn]['new'] == 'hypernym':
             hyper += 1
