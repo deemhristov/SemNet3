@@ -1,0 +1,29 @@
+Counts:
+
+(A) All: 1421
+(B) With choice from existing: 1344
+
+Form (B):
+(B.2) 2 hypernyms: 1316
+(B.3) 3 hypernyms: 25
+(B.4) 4 hypernyms: 2
+(B.5) 5 hypernyms: 1
+
+
+Examples:
+
+From B.2 - 3 examples:
+With new = null: ...
+With new = holonym: ...
+With new = function: ...
+
+From B.3 - 2 examples:
+With new = null: ...
+With new = property: ...
+
+
+Models:
+...
+
+Parameters:
+temperature = 0.2, 0.5, 0.7

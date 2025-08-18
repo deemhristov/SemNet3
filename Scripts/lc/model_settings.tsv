@@ -1,0 +1,4 @@
+model:tag	temperature	examples
+llama3.1:8b-instruct-q4_K_M	0.5	5
+deepseek-r1:8b-0528-qwen3-q4_K_M	0.5	5
+gemma3:4b-it-q4_K_M	0.5	5
