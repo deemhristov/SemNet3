@@ -28,6 +28,7 @@ def main():
 
     keys = set(data_a.keys()).union(set(data_b.keys()))
 
+    same = 0
     for key in keys:
         value_a = data_a.get(key, {})
         value_b = data_b.get(key, {})
@@ -38,6 +39,11 @@ def main():
             print(f"  File B: {value_b}")
         else:
             print(f"No difference for key '{key}': {value_a}")
+            same += 1
+
+    print(f"\nTotal keys compared: {len(keys)}")
+    print(f"Keys with no difference: {same}")
+    print(f"Accuracy: {same / len(keys) * 100:.2f}%")
 
 # Run the main function
 if __name__ == "__main__":

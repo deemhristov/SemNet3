@@ -15,16 +15,21 @@ class RanlpHypernymResolver:
     def resolve_hypernym(self, main_synset, hypernym_synsets, examples=None):
         prompt = "You are a WordNet expert. Your task is to evaluate hypernymy relations between semantic concepts. Each semantic concept is represented by a group of words with common meaning. This group is called a synset. If concept A is a hypernym of concept B, then concept B is a type of concept A, and concept A is a more generic version of concept B.\n\n"
         prompt += "Each synset is presented by its ID, group of words and meaning. You will be given a synset and its hypernyms and will be instructed to choose a single hypernym.\n\n"
-        prompt += "Reply only with the chosen hypernym synset ID with format 30-<8 digits>-n and no other words.\n\n"
+        prompt += "Reply only with the chosen hypernym synset ID with format 30-<8 digits>-n and no other words. Do not give any reasoning and do not generate other text.\n\n"
 
         if examples:
-            prompt += "Here are some examples for solving the task:\n\n"
+            # prompt += f"Here {"is an example" if len(examples) == 1 else "are some examples"} for solving the task:\n\n"
             for num, example in enumerate(examples, start=1):
-                prompt += f"EXAMPLE {num}\n\n"
+                if len(examples) == 1:
+                    prompt += f"EXAMPLE\n\n"
+                else:
+                    prompt += f"EXAMPLE {num}\n\n"
                 prompt += self.construct_task_prompt(example['main_synset'], example['hypernym_synsets'])
                 prompt += f"\n\n{example['response']}\n\n"
 
-        prompt += "TASK\n\n" + self.construct_task_prompt(main_synset, hypernym_synsets)
+        if len(examples) > 0:
+            prompt += "TASK\n\n"
+        prompt += self.construct_task_prompt(main_synset, hypernym_synsets)
         
         response = self.model.invoke(prompt).content.strip()
 
@@ -48,6 +53,6 @@ class RanlpHypernymResolver:
         main_words = ", ".join(f'"{word["word"]}"' for word in main_synset['words'])
         main_gloss = main_synset.get('gloss').split('; "')[0]
         
-        task_prompt += f"\nWhich of the above {len(hypernym_synsets)} synsets is most likely to be the hypernym of the synset below?\n"
+        task_prompt += f"\nWhich of the synsets {", ".join([hn['id'] for hn in hypernym_synsets][:-1])} and {hypernym_synsets[-1]['id']} is most likely to be the hypernym of synset {main_synset['id']} defined as:\n"
         task_prompt += f"- ID {main_synset['id']} with words {main_words} and meaning \"{main_gloss}\""
         return task_prompt

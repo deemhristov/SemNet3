@@ -51,11 +51,18 @@ examples = [
     }
 ]
 
+# Remove examples from the data
+for example in examples:
+    main_synset_id = example['main_synset']['id']
+    if main_synset_id in data:
+        del data[main_synset_id]
+
 # Parse arguments
 parser = argparse.ArgumentParser(description="Run hypernym resolution with specified model and parameters.")
 parser.add_argument("--model", type=str, default="llama3.1:8b-instruct-q4_K_M", help="Model name")
-parser.add_argument("--temperature", type=float, default=0.5, help="Temperature parameter")
-parser.add_argument("--examples", type=int, default=5, help="Number of examples to use")
+parser.add_argument("--temperature", type=float, default=0.7, help="Temperature parameter")
+parser.add_argument("--examples", type=int, default=0, help="Number of examples to use")
+parser.add_argument("--tokens", type=int, default=128, help="Maximum number of tokens in the response")
 parser.add_argument("--retries", type=int, default=1, help="Number of retries")
 parser.add_argument("--output", type=str, default=f"ranlp_resolved_hypernyms_{"".join(random.choices(string.ascii_lowercase + string.digits, k=8))}.json", help="Output file name")
 args = parser.parse_args()
@@ -105,7 +112,7 @@ def run_hypernym_resolution(model, parameters=None, num_examples=0):
         return result
 
 # Run the hypernym resolution
-result = run_hypernym_resolution(model=args.model, parameters={'temperature': args.temperature}, num_examples=args.examples)
+result = run_hypernym_resolution(model=args.model, parameters={'temperature': args.temperature, 'num_predict': args.tokens}, num_examples=args.examples)
 
 # Print the results
 with open(args.output, "w") as f:
