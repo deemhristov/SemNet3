@@ -1,13 +1,13 @@
 import re
 import sys
-from langchain_ollama import ChatOllama
+from langchain_ollama import OllamaLLM
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 
 class RanlpHypernymResolver:
     def __init__(self, model, parameters=None):
         # Initialize the model
-        self.model = ChatOllama(
+        self.model = OllamaLLM(
             model=model,
             **parameters if parameters is not None else {}
         )
@@ -31,7 +31,7 @@ class RanlpHypernymResolver:
             prompt += "TASK\n\n"
         prompt += self.construct_task_prompt(main_synset, hypernym_synsets)
         
-        response = self.model.invoke(prompt).content.strip()
+        response = self.model.invoke(prompt).strip()
 
         synset_id_matches = re.findall(fr"\b30-\d{{8}}-n\b", response)
         synset_id_matches = [match for match in synset_id_matches if match != main_synset['id']]

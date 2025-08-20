@@ -2,6 +2,7 @@
 import argparse
 import json
 import os
+import sys
 
 def load_json(file_path):
     """Load a JSON file and return its content."""
@@ -33,17 +34,13 @@ def main():
         value_a = data_a.get(key, {})
         value_b = data_b.get(key, {})
         
-        if value_a != value_b:
-            print(f"Difference found for key '{key}':")
-            print(f"  File A: {value_a}")
-            print(f"  File B: {value_b}")
-        else:
-            print(f"No difference for key '{key}': {value_a}")
+        if value_a is not None and value_b is not None and value_a == value_b:
             same += 1
 
-    print(f"\nTotal keys compared: {len(keys)}")
-    print(f"Keys with no difference: {same}")
-    print(f"Accuracy: {same / len(keys) * 100:.2f}%")
+    print(f"File A: {args.file_a}", file=sys.stderr)
+    print(f"File B: {args.file_b}", file=sys.stderr)
+    print(f"{same} / {len(keys)} = {same / len(keys) * 100:.2f}%", file=sys.stderr)
+    print(same / len(keys))
 
 # Run the main function
 if __name__ == "__main__":
